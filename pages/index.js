@@ -10,9 +10,24 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section className="container">
-        <Testimonial />
-        <Testimonial />
-        <Testimonial />
+        <Testimonial
+          img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+          name="Max Ipswich"
+          text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, ea amet odit facere temporibus assumenda hic cumque sit officiis consequatur!"
+          desc="Marathoner"
+        />
+        <Testimonial
+          img="https://images.unsplash.com/photo-1534751516642-a1af1ef26a56?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=689&q=80"
+          name="Yuko Suzuki"
+          text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, ea amet odit facere temporibus assumenda hic cumque sit officiis consequatur!"
+          desc="HalfMarathoner"
+        />
+        <Testimonial
+          img="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80"
+          name="Hans Flix"
+          text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, ea amet odit facere temporibus assumenda hic cumque sit officiis consequatur!"
+          desc="UltraMarathoner"
+        />
       </section>
     </>
   );
