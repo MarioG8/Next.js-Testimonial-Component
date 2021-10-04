@@ -1,7 +1,7 @@
 import styles from "../styles/Testimonial.module.css";
 import Image from "next/image";
 
-function Testimonial({ img, text, name, desc }) {
+function Testimonial({ text, img, name, desc }) {
   return (
     <div className={styles.testimonial}>
       <p className={styles.testimonial__text}>{text}</p>
